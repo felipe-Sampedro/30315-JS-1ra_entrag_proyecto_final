@@ -162,12 +162,9 @@ const limpiar = document.querySelector('.resetear')
 limpiar.onclick = () => {amortizacion.innerText=""}
 
 
-
 // funcion principal para calculo de cuota mensual a pagar del credito
 function anualidad(){
-	const anterior = document.getElementById("resultado_final")
-	anterior.innerText="Hola"
-
+	
 	edad=parseInt(prompt("cual es tu edad?"))
 	if (edad>=18){
 		let monto_prestamo = document.getElementById("prestamo").value;
